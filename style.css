@@ -1,0 +1,48 @@
+.footer {
+  font-family: "Noto Sans Bengali", sans-serif; /* Use a Bengali font, fallback to sans-serif */
+  font-size: 14px;
+  text-align: center;
+  padding: 15px 0; /* Increased padding for a bit more visual breathing room */
+  background-color: #f9f9f9; /* Very light gray background */
+  color: #333; /* Dark gray text for readability */
+  border-top: 1px solid #ddd; /* Lighter, subtle border */
+}
+
+.footer p {
+  margin: 0;
+}
+
+/*  Potentially add a background image (subtle and optional) */
+.footer {
+  /* Example: A very subtle watermark-like image */
+  /* background-image: url('path/to/subtle-bengali-motif.png'); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center center; */
+  /* background-size: cover;  Adjust as needed */
+}
+
+/*  Consider a color variation for emphasis */
+.footer .copyright {
+  color: #555; /* Slightly lighter text for the copyright notice */
+}
+
+/*  If you want to highlight the "UCA 2025" part */
+.footer a {
+  color: #007bff; /* A typical link color */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/*  Media query for smaller screens */
+@media (max-width: 768px) {
+  footer {
+    font-size: 12px; /* Adjust font size for smaller screens */
+    padding: 10px 0;
+  }
+}
+
+/* Bengali Font (Import in your main CSS or HTML) */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;700&display=swap");
